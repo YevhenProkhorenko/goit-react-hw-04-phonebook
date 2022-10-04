@@ -18,24 +18,6 @@ export default function Phonebook() {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
 
-  //   componentDidMount() {
-  //     try {
-  //       const parseContacts = JSON.parse(localStorage.getItem('contacts'));
-  //       if (parseContacts?.length) {
-  //         this.setState({ contacts: parseContacts });
-  //       }
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
-
-  //   componentDidUpdate(prevProps, prevState) {
-  //     const { contacts } = this.state;
-  //     if (prevState.contacts !== contacts) {
-  //       localStorage.setItem('contacts', JSON.stringify(contacts));
-  //     }
-  //   }
-
   const addConctact = data => {
     if (noDuplicates(data)) {
       return alert(`${data.name} is already in contacts.`);
