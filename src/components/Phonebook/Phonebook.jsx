@@ -31,7 +31,7 @@ export default function Phonebook() {
 
   const searchContact = e => {
     const { value } = e.target;
-    setFilter({ value });
+    setFilter(value);
   };
 
   const filteredContacts = () => {
