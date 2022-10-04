@@ -1,0 +1,46 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  width: 400px;
+  border: 1px solid #212121;
+}
+.formFlex {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.labelText {
+  font-size: 20px;
+  margin: 0;
+}
+.inputStyles {
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.submitButton {
+  width: 100px;
+  padding: 4px 5px;
+  border-radius: 5px;
+
+  font-size: 12px;
+
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+
+.deleteButton {
+  width: 50px;
+  margin-left: 5px;
+}
+.contactList {
+  display: flex;
+  align-items: center;
+}
