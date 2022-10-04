@@ -24,8 +24,6 @@ export default function ContactForm({ onSubmit }) {
     }
   };
 
-  // const obj = { name, number };
-
   const handleSubmit = e => {
     e.preventDefault();
     onSubmit({ name, number });
